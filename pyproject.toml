@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lms-multi-agent"
+version = "0.1.0"
+description = "Multi-agent tutorial generation system using Ollama"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.1.0",
+    "langchain-ollama>=0.1.0",
+    "langchain-community>=0.0.20",
+    "langgraph>=0.0.20",
+    "httpx>=0.25.0",
+    "pydantic>=2.5.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.3",
+    "pytest-asyncio>=0.21.1",
+]

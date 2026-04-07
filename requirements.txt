@@ -1,0 +1,20 @@
+# Multi-Agent Tutorial System — Requirements (Ollama + Streamlit Version)
+
+# Browser UI — opens port 8501 automatically
+streamlit>=1.32.0
+
+# Ollama (replaces openai — runs fully local)
+ollama>=0.2.0
+
+# LangGraph workflow orchestration
+langgraph>=0.0.20
+langchain-core>=0.1.0
+
+# RAG Tool HTTP calls
+httpx>=0.25.0
+
+# Data validation
+pydantic>=2.5.0
+
+# Environment variables
+python-dotenv>=1.0.0
